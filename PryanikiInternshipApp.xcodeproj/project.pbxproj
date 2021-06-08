@@ -13,6 +13,8 @@
 		740686D0266E4BBB00E5402D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740686CE266E4BBB00E5402D /* Main.storyboard */; };
 		740686D2266E4BBD00E5402D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740686D1266E4BBD00E5402D /* Assets.xcassets */; };
 		740686D5266E4BBD00E5402D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740686D3266E4BBD00E5402D /* LaunchScreen.storyboard */; };
+		740686FD266E58F100E5402D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740686FC266E58F100E5402D /* Model.swift */; };
+		740686FF266E5C2500E5402D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740686FE266E5C2500E5402D /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		740686D1266E4BBD00E5402D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		740686D4266E4BBD00E5402D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		740686D6266E4BBD00E5402D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740686FC266E58F100E5402D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		740686FE266E5C2500E5402D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				740686D1266E4BBD00E5402D /* Assets.xcassets */,
 				740686D3266E4BBD00E5402D /* LaunchScreen.storyboard */,
 				740686D6266E4BBD00E5402D /* Info.plist */,
+				740686FE266E5C2500E5402D /* ViewModel.swift */,
+				740686FC266E58F100E5402D /* Model.swift */,
 			);
 			path = PryanikiInternshipApp;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740686FF266E5C2500E5402D /* ViewModel.swift in Sources */,
 				740686CD266E4BBB00E5402D /* ViewController.swift in Sources */,
 				740686C9266E4BBB00E5402D /* AppDelegate.swift in Sources */,
 				740686CB266E4BBB00E5402D /* SceneDelegate.swift in Sources */,
+				740686FD266E58F100E5402D /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
